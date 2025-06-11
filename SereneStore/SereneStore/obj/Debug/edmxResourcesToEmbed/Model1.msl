@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SereneStoreModelStoreContainer" CdmEntityContainer="SereneStoreEntities">
+    <EntitySetMapping Name="DataBarang">
+      <EntityTypeMapping TypeName="SereneStoreModel.DataBarang">
+        <MappingFragment StoreEntitySet="DataBarang">
+          <ScalarProperty Name="Stok" ColumnName="Stok" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NamaBarang" ColumnName="NamaBarang" />
+          <ScalarProperty Name="HargaBarang" ColumnName="HargaBarang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DataUser">
+      <EntityTypeMapping TypeName="SereneStoreModel.DataUser">
+        <MappingFragment StoreEntitySet="DataUser">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
